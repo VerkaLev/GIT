@@ -8,3 +8,108 @@ let arrNum = [65, 34, 12, 46, 93, 28, 71, 36];
 // 6. Создать пустой массив, заполнить массив нечетными числами. Длина массива должна быть 10.
 // 7. Вывести на экран количество четных чисел массива arrNum.
 // 8. Создать пустой массив, заполнить его элементами, где значение каждого элемента равно квадрату его номера (длина массива должна быть 8).
+
+
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === `Petya`) {
+//         arr[i] = `Natasha`;
+//     }
+// }
+// console.log(arr);
+
+
+
+
+
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] = `Mrs.` + `${arr[i]}`
+// }
+// console.log(arr);
+
+
+
+
+
+// let bigest = 0;
+// for (let i = 0; i < arrNum.length; i++) {
+//     if (arrNum[i] > bigest){
+//         bigest = arrNum[i];
+//     } else {
+//         arrNum[i] = bigest;
+//     }
+        
+//     console.log(bigest);
+// }
+
+
+
+
+
+// let srednee = 0;
+// for (let i = 0; i < arrNum.length; i++) {
+//      srednee += arrNum[i];
+//     console.log(srednee / arrNum.length);
+// }
+
+
+
+
+
+
+// let arrPustoj = [];
+// arrPustoj.length = 8;
+
+// for (let i = 0; i < arrPustoj.length; i++) {
+//     if (i % 2 === 0){
+//         arrPustoj[i] = 1;
+//     } else {
+//         arrPustoj[i] = 0;
+//     }
+    
+//     console.log(arrPustoj);
+// }
+
+
+
+
+
+// let arrEmpty = [];
+// arrEmpty.length = 10;
+// let nechetnoe = 1;
+// let raznica = 2;
+
+// for (let i = 0; i < arrEmpty.length; i++) {
+//     arrEmpty[i] = nechetnoe ;
+//      nechetnoe += raznica;
+
+//     console.log(arrEmpty);
+// }
+
+
+
+
+
+
+// let kolichestvo = 0;
+
+// for (i = 0; i < arrNum.length; i++) {
+//     if (arrNum[i] % 2 === 0) {
+//         kolichestvo++;
+//     } else {
+//         continue;
+//     }
+// }
+// console.log(kolichestvo);
+
+
+
+let arrEmpty = [];
+arrEmpty.length = 8;
+
+for (let i = 0; i < arrEmpty.length; i++) {
+    arrEmpty[i] = i ** i;
+}
+console.log(arrEmpty);
+
+// как сделать, чтобы первое значение считалось за ноль, ане за единицу???
