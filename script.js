@@ -23,7 +23,7 @@ let arrNum = [65, 34, 12, 46, 93, 28, 71, 36];
 
 
 // for (let i = 0; i < arr.length; i++) {
-//     arr[i] = `Mrs.` + `${arr[i]}`
+//     arr[i] = `Mrs.` + arr[i];
 // }
 // console.log(arr);
 
@@ -35,12 +35,9 @@ let arrNum = [65, 34, 12, 46, 93, 28, 71, 36];
 // for (let i = 0; i < arrNum.length; i++) {
 //     if (arrNum[i] > bigest){
 //         bigest = arrNum[i];
-//     } else {
-//         arrNum[i] = bigest;
-//     }
-        
-//     console.log(bigest);
+//     }     
 // }
+// console.log(bigest);
 
 
 
@@ -49,8 +46,8 @@ let arrNum = [65, 34, 12, 46, 93, 28, 71, 36];
 // let srednee = 0;
 // for (let i = 0; i < arrNum.length; i++) {
 //      srednee += arrNum[i];
-//     console.log(srednee / arrNum.length);
 // }
+// console.log(srednee / arrNum.length);
 
 
 
@@ -66,9 +63,8 @@ let arrNum = [65, 34, 12, 46, 93, 28, 71, 36];
 //     } else {
 //         arrPustoj[i] = 0;
 //     }
-    
-//     console.log(arrPustoj);
 // }
+// console.log(arrPustoj);
 
 
 
@@ -82,9 +78,8 @@ let arrNum = [65, 34, 12, 46, 93, 28, 71, 36];
 // for (let i = 0; i < arrEmpty.length; i++) {
 //     arrEmpty[i] = nechetnoe ;
 //      nechetnoe += raznica;
-
-//     console.log(arrEmpty);
 // }
+// console.log(arrEmpty);
 
 
 
@@ -108,8 +103,6 @@ let arrEmpty = [];
 arrEmpty.length = 8;
 
 for (let i = 0; i < arrEmpty.length; i++) {
-    arrEmpty[i] = i ** i;
+    arrEmpty[i] = i * i;
 }
 console.log(arrEmpty);
-
-// как сделать, чтобы первое значение считалось за ноль, ане за единицу???
