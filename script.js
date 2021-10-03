@@ -16,6 +16,10 @@
 
 
 
+
+
+
+
 // 2. Написать функцию, которая принимает массив и степень. Функция возвращает массив, в котором каждое число массива возведено в указанную степень.
 
 // arrIshod = [1,5,6,4];
@@ -29,6 +33,9 @@
 // }
 
 // console.log( newArray(arrIshod, 3));
+
+
+
 
 
 
@@ -57,3 +64,22 @@
 
 
 // 4. Написать функцию, которая принимает случайный двумерный массив (разной длины) из 8 элементов. Функция возвращает тот массив сумма элементов которого наибольшая.
+
+first = [1,2,3,4];
+second = [2,3,4,5];
+
+function reternBiggestArr ([arr1, arr2]) {
+    let counterArr1 = 0;
+    let counterArr2 = 0;
+    for (let i = 0; i < arr1.length; i++) {
+        counterArr1 += arr1[i];
+    }
+    for (let t = 0; t < arr2.length; t++) {
+        counterArr2 += arr2[t];
+    }
+    let answer = counterArr1 > counterArr2 ? arr1 : arr2;
+
+    return answer;
+}
+
+console.log( reternBiggestArr([first, second]) );
