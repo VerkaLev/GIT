@@ -67,5 +67,3 @@ item >= 0 ? acc + item : acc,
 0
 )
 console.log(sum);
-
-
