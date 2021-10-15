@@ -63,7 +63,7 @@ item > 0
 console.log(arrPositiveNum);
 
 const sum = arr.reduce((acc, item) => 
-item >= 0 ? acc + item : acc, 
+item % 2 === 0 ? acc + item : acc, 
 0
 )
 console.log(sum);
